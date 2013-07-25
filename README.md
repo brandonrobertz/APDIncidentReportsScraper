@@ -9,16 +9,14 @@ Pretty simple ...
 
 `apd_incident_reports.py [-h] [--verbose] STARTDATE ENDDATE FILENAME`
 
-In detail:
+    Arguments:
+      STARTDATE   Date to start scraping from (furthest date from present) in
+                  MM/DD/YYYY format.
+      ENDDATE     Date to scrape to (nearest to now) in MM/DD/YYYY format.
+      FILENAME    Filename to write CSV data to.
 
-`Arguments:
-  STARTDATE   Date to start scraping from (furthest date from present) in
-              MM/DD/YYYY format.
-  ENDDATE     Date to scrape to (nearest to now) in MM/DD/YYYY format.
-  FILENAME    Filename to write CSV data to.
-
-Optional Arguments:
-  --verbose   Increase output verbosity`
+    Optional Arguments:
+      --verbose   Increase output verbosity
 
 # Notes
 
