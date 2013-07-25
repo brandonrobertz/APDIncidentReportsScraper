@@ -22,8 +22,8 @@ Pretty simple ...
 
 - The Austin Police Department only holds the past 18 months of police reports on their site, get it while it lasts.
 
-- There is no way to disinguish between non-Hispanic whites and Hispanic whites in the reports. The APD doesn't include ethnicity data here, so all Hispanic people are lumped into "White".
+- There is no way to disinguish between non-Hispanic whites and Hispanic whites in the reports. The APD doesn't include ethnicity data here, so all Hispanic people are lumped into "White". One possible solution to doing a preliminary sort on this is to cross-reference these records with the Travis County Clerk's Misdemeanor Records, which does include ethnicity details. Another strategy would be to use something like the Census Bureau's ["Building a Spanish Surname List for the 1990s"](http://www.census.gov/population/documentation/twpno13.pdf‎) as a model.
 
 - Juvenile offenders' names are censored from the reports.
 
-- I use Aaron Swartz's `html2txt` https://github.com/aaronsw/html2text
+- I use Aaron Swartz's `html2txt` https://github.com/aaronsw/html2text (included) and the Requests library http://docs.python-requests.org/en/latest/ (you'll need to install this yourself)
