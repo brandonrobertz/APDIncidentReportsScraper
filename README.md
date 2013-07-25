@@ -9,6 +9,7 @@ Pretty simple ...
 
 `apd_incident_reports.py [-h] [--verbose] STARTDATE ENDDATE FILENAME`
 
+In detail:
 
 `Arguments:
   STARTDATE   Date to start scraping from (furthest date from present) in
